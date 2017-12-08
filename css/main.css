@@ -1,0 +1,123 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #abe188;
+  font-family: 'Raleway', sans-serif;
+}
+.container {
+  width: 100%;
+  text-align: center;
+}
+
+/* Estilo a Seccion 1*/
+.section1 {
+  background: #f78e69;
+  color: #fff;
+  /*outline: 1px solid green;*/
+}
+.title {
+  font-size: 50px;
+  width: 100%;
+  padding-right: 60px;
+  padding-top: 60px;
+  padding-bottom: 20px;
+  text-align: right;
+  /*outline: 1px solid red;*/
+}
+
+.sub-title {
+  font-size: 16px;
+  text-align: right;
+  width: 100%;
+  padding-right: 60px;
+  padding-bottom: 50px;
+  /*outline: 1px solid red;*/
+}
+#panda-1 {
+  object-fit: cover;
+  height: 420px;
+  padding-bottom: 15px;
+  width: 100%;
+}
+/* Estilos a Seccion 2 */
+.section2 {
+  background-color: #abe188;
+}
+.about {
+  width: 50%;
+  background-color: #f78e69;
+  color: #fff;
+  margin: 70px auto;
+  padding: 35px;
+  line-height: 25px;
+}
+.about h2 {
+  padding-bottom: 25px;
+}
+/* Estilos a Seccion 3*/
+#panda-2 {
+  background: #f78e69;
+  object-fit: cover;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  width: 100%;
+  height: 600px;
+}
+/* Estilos a Seccion 4*/
+.section4 {
+  background: #abe188;
+  color: #fff;
+}
+.section4 h2 {
+  font-size: 40px;
+  font-weight: bold;
+  padding-top: 60px;
+  padding-bottom: 45px;
+}
+.picture {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+}
+.pict:before, .pict:after {
+    content: " ";
+    display: table;
+}
+
+.pict:after {
+    clear: both;
+}
+.pict {
+    background:rgb(243, 244, 245);
+    display: inline-block;
+    margin-right: 3.5%; /*Esto es el gutter */
+    margin-bottom: 50px;
+}
+.pict:last-child {
+  margin-right: 0;
+}
+.pict img {
+  border: 10px solid white;
+}
+
+/* Estilos a Seccion 5*/
+#panda-3 {
+  background: #f78e69;
+  object-fit: cover;
+  padding-top: 15px;
+  height: 550px;
+  width: 100%;
+}
+.footer {
+  background: #f78e69;
+  color: #fff;
+}
+.footer p {
+  font-size: 20px;
+  font-weight: lighter;
+  padding: 15px 25px 25px 0;
+  text-align: right;
+}
